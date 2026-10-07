@@ -58,6 +58,14 @@
           </div>
         </details>
 
+        <section class="message-board-sponsor" aria-labelledby="message-board-sponsor-title">
+          <div class="message-board-sponsor-heading"><CatalogIcon name="heart" /><h2 id="message-board-sponsor-title">赞助伙伴</h2></div>
+          <a class="message-board-sponsor-link" href="https://susujuris.cn" target="_blank" rel="noopener noreferrer">
+            <span class="message-board-sponsor-mark" aria-hidden="true">苏</span>
+            <span class="message-board-sponsor-info"><strong>苏酥学法</strong><small>susujuris.cn</small></span>
+            <CatalogIcon name="arrow" />
+          </a>
+        </section>
         <section class="message-board-guide" aria-labelledby="message-board-guide-title">
           <div class="message-board-guide-heading"><CatalogIcon name="book" /><h2 id="message-board-guide-title">让反馈更清楚</h2></div>
           <div class="message-board-guide-item"><span>01</span><div><h3>发现文本问题</h3><p>请附上法律名称、条文编号或页面链接，方便定位和核对。</p></div></div>
@@ -87,6 +95,7 @@ const TWIKOO_SELECTOR = "#twikoo-message-board";
 // 新记录按收到时间倒序添加，格式：
 // { nickname: "昵称", amount: "¥10.00", time: "2026-09-23", datetime: "2026-09-23" }
 const donationRecords = [
+  { nickname: "*酥", amount: "¥5.00", time: "2026/10/07", datetime: "2026-10-07" },
   { nickname: "*涛", amount: "¥1.00", time: "2026/09/22", datetime: "2026-09-22" },
 ];
 
